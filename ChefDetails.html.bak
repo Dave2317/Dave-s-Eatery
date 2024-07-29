@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character encoding and viewport for responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title -->
+    <title>Chef Details - Dave's Eatery</title>
+    <!-- Link to external stylesheet for styling -->
+    <link rel="stylesheet" href="details.css"> 
+</head>
+<body>
+
+<!-- Main heading of the page -->
+<h1>Dave's Eatery</h1>
+
+<!-- Navigation section -->
+<nav>
+    <ul>
+        <!-- Home link -->
+        <li><a href="index.html">Home</a></li>
+        <!-- Menu link -->
+        <li><a href="Restaurant.html">Order</a></li>
+        <!-- Chef link -->
+        <li><a href="Chef.html">Chef</a></li>
+        <!-- Contact Us link -->
+        <li><a href="ContactUs.html">Contact us</a></li>
+		<!-- Delicious eat link -->
+		<a href="DeliciousEats.html"> <li> Buffet  </li></a> 
+    </ul>
+</nav>
+
+<!-- Chef details section -->
+<div class="chef-details">
+        <div class="chef-info">
+            <table>
+                <tr>
+                    <th>Chef's Name</th>
+                    <th>Contact</th>
+                    <th>Location</th>
+                </tr>
+                <tr>
+                    <td>Vikas Khanna</td>
+                    <td>vikaskhanna@gmail.com</td>
+                    <td>Mumbai, India</td>
+                </tr>
+                <tr>
+                    <td>Atul Kochhar</td>
+                    <td>atulkochhar@gmail.com</td>
+                    <td>Tamil Nadu, India</td>
+                </tr>
+                <tr>
+                    <td>Vineet Bhatia</td>
+                    <td>vineet@gmail.com</td>
+                    <td>Gujarat, India</td>
+                </tr>
+                <tr>
+                    <td>Garima Arora</td>
+                    <td>arora@gmail.com</td>
+                    <td>Gujarat,India</td>
+                </tr>
+                <tr>
+                    <td>Sriram Aylur</td>
+                    <td>Sriram12@gmail.com</td>
+                    <td>Kerala, India</td>
+                </tr>
+                <tr>
+                    <td>Jaspal singh</td>
+                    <td>singh34@gmail.com</td>
+                    <td>punjab, India</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+<!-- Footer section -->
+<footer>
+    &copy; 2023 Chef Section. All rights reserved.
+</footer>
+
+</body>
+</html>

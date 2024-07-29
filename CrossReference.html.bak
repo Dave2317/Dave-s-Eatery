@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Requirements</title>
+    <link rel="stylesheet" type="text/css" href="CrossReference.css">
+</head>
+<body>
+    <a href="homepage.html"> Back to Home </a> 
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Requirement</th>
+                <th>Requirement Description</th>
+                <th>Page Name</th>
+            </tr>
+        </thead>
+        <tbody>
+	
+	<tr>
+		<td> 5.1 a. </td>
+		<td> Section Tags including structural tags </td>
+		<td><a href="DeliciousEats.html">DeliciousEats.html</a></td>
+	</tr>
+	
+	<tr>
+		<td> 5.1 b. </td>
+		<td> Static and Clickable Images </td>
+		<td> <b> Static- </b> <a href="Restaurant.html">Restaurant.html</a>, <b> Clickable- </b> <a href="Chef.html"> Chef.html</a></td>
+	</tr>
+	
+	<tr>
+		<td> 5.1 c. </td>
+		<td> Background Image</td>
+		<td> <a href="HomepageStyles.css">HomepageStyles.css</a> </td>
+	</tr>
+
+	<tr>
+		<td> 5.1 d. </td>
+		<td> Special Characters </td>
+		<td> <a href="DeliciousEats.html">DeliciousEats.html</a> </td>
+	</tr>
+
+	<tr>
+		<td> 5.1 e. </td>
+		<td> Use of Meta Tags </td>
+		<td> <a href="index.html"> index.html</a></td>
+	</tr>
+
+	<tr>
+		<td> 5.1 f </td>
+		<td> Use of Footer with Links </td>
+		<td> <a href=" ContactUs.html">ContactUs.html</a> </td>
+	</tr>
+
+	<tr>
+		<td> 5.1 g </td>
+		<td> Last Updated In Footer with javascript DOM</td>
+		<td> <a href="ContactUs.html">ContactUs.html</a> </td>
+	</tr>
+
+	<tr>
+		<td> 5.2 a. </td>
+		<td> Use of Css to Format appearance </td>
+		<td> <a href="chef.css">chef.css</a> </td>
+	</tr>
+
+	<tr>
+		<td> 5.2 b. </td>
+		<td>  Conttextual/Combinators selectors </td>
+		<td><a href="chef.css">chef.css</a> </td>
+	</tr>
+	
+	<tr>
+		<td> 5.2 c. </td>
+		<td>  CSS for color(RGBA & HSLA)</td>
+		<td> <b>RGBA-</b><a href="chef.css">chef.css</a>, <b>HSLA-</b><a href="Delicious.css">Delicious.css</a> </td>
+	</tr>
+	
+	<tr>
+		<td> 5.2 d. </td>
+		<td> Highlighting Hyperlinks </td>
+		<td><a href =" CrossReference.html ">CrossReference.html</a> </td>
+	</tr>
+	
+	<tr>
+		<td> 5.2 e. </td>
+		<td> Use ofCSS Background Styles background size, padding, margins, borders, use of an
+             appropriate border style, use of rounded corners </td>
+		<td> <a href ="index.html">index.html</a> </td>
+	</tr>
+	
+	<tr>
+		<td> 5.2 f. </td>
+		<td>  Float and Grid Layouts </td>
+		<td> <b>Float-</b> <a href ="Delicious.css ">Delicious.css</a>, <b>Grid-</b><a href ="foods.css">food.css</a> </td>
+	</tr>
+	
+    <tr>
+        <td> 5.2 g. </td>
+        <td> Text and Box Shadows (CSS) </td>
+        <td> <b>Text Shadow-</b><a href="HomepageStyles.css">HomepageStyles.css</a>, <b>box shadows-</b><a href="chef.css">chef.css</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.2 h. </td>
+        <td> CSS Opacity for semi-transparency </td>
+        <td> <b>1st img-</b> <a href="Chef.css">Chef.css</a>, <b> 2nd img-</b><a href="Delicious.css">Delicious.css</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.3 a. </td>
+        <td> Use of form elements </td>
+        <td><a href="ContactUs.html">ContactUs.html</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.3 b. </td>
+        <td> Styles to Web Forms </td>
+        <td><a href="Contact.css">Contact.css</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.3 c. </td>
+        <td> Form Validation by using focus pseudo class</td>
+        <td><a href="Contact.css">Contact.css</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.4 a. </td>
+        <td> Use of Web Table </td>
+        <td><a href="ChefDetails.css">ChefDetails.css</a></td>
+    </tr>
+	
+    <tr>
+        <td> 5.5 a. </td>
+        <td> Video </td>
+        <td><a href="DeliciousEats.html">DeliciousEats.html</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.5 b. </td>
+        <td> Transitions and Animations </td>
+        <td><b>Transitions-</b> <a href="foods.css">foods.css</a>, <b>Animations-</b><a href="Delicious.css">Delicious.css</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.6 a. </td>
+        <td> System Date (countdown timer to an event) </td>
+        <td><a href="DeliciousEats.html">DeliciousEats.html</a>, <a href="timer.js">timer.js</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.6 b. </td>
+        <td> Validating Form Input JS </td>
+        <td><a href="ContactUs.html">ContactUs.html</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.6 c. </td>
+        <td> Use of JS alerts </td>
+        <td><a href="javascript.js">javascript.js</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.6 d. </td>
+        <td> Any Other Concept taught in class </td>
+        <td><a href="javascript.js">javascript.js</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.7 a. </td>
+        <td> Responsive Web Design </td>
+        <td><a href="Contact.css">Contact.css</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.7 b. </td>
+        <td> Responsive Image </td>
+        <td><a href="Delicious.css">Delicious.css</a></td>
+    </tr>
+
+    <tr>
+        <td> 5.7 c. </td>
+        <td> Responsive Web Form for different screen sizes </td>
+        <td><a href="Contact.css">Contact.css</a></td>
+    </tr>
+
+		</tbody>
+    </table>
+</body>
+</html>

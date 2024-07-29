@@ -1,0 +1,52 @@
+//This code fulfils requirments 5.6(c) and 5.6(d)
+function validateForm () {
+  var name = document.getElementById("username").value;
+  var email = document.getElementById("email").value;
+  var tel =document.getElementById("tel").value;
+  var password =document.getElementById("password").value;
+
+
+  if (name == ""){
+      alert("Name field is required.");
+      return false;
+  }
+  else if (tel == ""){
+      alert("Phone number is required.");
+      return false;
+  }
+  else if (email == ""){
+    alert("Email field is required.");
+    return false;
+}
+  else if(password == ""){
+      alert("Password is required.");
+      return false;
+  }
+  alert ("Form submitted successfully.");
+  return true;
+}
+
+document.addEventListener("DOMContentLoaded", function () 	
+{
+    // Get the current date and time
+    var currentDate = new Date();
+
+    // Format the date as desired
+    var formattedDate = currentDate.toLocaleString("en-US", 
+	{
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+        hour: "numeric",
+        minute: "numeric",
+        second: "numeric",
+        timeZoneName: "short",
+    });
+
+    // Update the span element with the formatted date
+    var updateTimeElement = document.getElementById("update-time");
+    if (updateTimeElement) 
+	{
+        updateTimeElement.textContent = formattedDate;
+    }
+});

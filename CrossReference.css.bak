@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Normal link state */
+table
+{
+	width: 100%;
+	height:100%;
+}
+a {
+    color: blue; /* Set the color to blue for normal (unvisited) links */
+}
+
+/* Visited link state */
+a
+{
+	text-decoration:none;
+}
+a:visited 
+{
+    color: purple; /* Set the color to purple for visited links */
+}
+
+/* Hover state */
+a:hover 
+{
+    color: red; /* Change the color to red when the link is hovered over */
+}
+
+/* Active state */
+a:active 
+{
+    color: green; /* Change the color to green when the link is being clicked */
+}
+
+/* Focus state */
+a:focus 
+{
+    outline: 2px solid orange; /* Add an orange outline when the link is focused */
+}

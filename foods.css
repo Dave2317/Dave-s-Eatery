@@ -1,0 +1,123 @@
+/* Body styling */
+body 
+{
+	background-color: Moccasin; /* Set background color */
+}
+
+/* Global styling for all elements */
+* 
+{
+	margin: 0; /* Remove default margin */
+	font-family: Sans-serif; /* Set font family for all elements */
+	padding: 0; /* Remove default padding */
+	box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styling for main heading */
+h1 
+{
+	text-align: center; /* Center-align text */
+	color: green; /* Set text color to green */
+	padding: 20px; /* Add padding around the heading */
+}
+
+/* Styling for the navigation bar */
+nav 
+{
+    background-color: #DEB887; /* Background color */
+    text-align: center; /* Center-align navigation items */
+    padding: 10px 0; /* Add padding to increase the overall height */
+}
+
+/* Styling for navigation list */
+nav ul 
+{
+    list-style-type: none; /* Remove default list styling */
+}
+
+/* Styling for individual navigation items */
+nav ul li 
+{
+    display: inline-block; /* Use inline-block for layout */
+    margin: 0 15px; /* Add margin between navigation items */
+}
+
+/* Styling for navigation links */
+nav ul a 
+{
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Link color */
+    font-size: 18px; /* Set the desired font size */
+    transition: 0.2s ease-in; /* Add smooth transition effect, This fulfils requirements 5.5(b) */
+}
+
+/* Styling for navigation links on hover */
+nav ul a:hover 
+{
+    background-color: red; /* Background color on hover */
+    color: white; /* Text color on hover */
+	padding: 15px 25px; /*Add padding*/
+}
+
+/* Styling for product grid */
+.products 
+{
+	display: grid; /* Use grid layout, This fulfils requirement 5.2(f) */
+	grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+	padding: 30px 20px; /* Add padding */
+	grid-column-gap: 20px; /* Set column gap */
+	grid-row-gap: 30px; /* Set row gap */
+}
+
+/* Styling for individual product */
+.product img 
+{
+	width: 100%; /* Set image width to 100% */
+	height: 300px; /* Set image height */
+	object-fit: cover; /* Ensure image covers the container */
+	cursor: pointer; /* Set cursor to pointer */
+	transition: 0.2s ease; /* Add smooth transition effect */
+}
+
+/* Styling for product image on hover */
+.product img:hover 
+{
+	transform: scale(1.04); /* Scale image on hover */
+}
+
+/* Styling for product title */
+.product h4 
+{
+	padding: 5px; /* Add padding */
+	text-align: center; /* Center-align text */
+}
+
+/* Styling for product button */
+.product button 
+{
+	padding: 6px 35px; /* Set padding */
+	border: none; /* Remove border */
+	background-color: green; /* Set background color */
+	color: white; /* Set text color */
+	cursor: pointer; /* Set cursor to pointer */
+	border-radius: 4px; /* Add rounded corners */
+	font-size: 20px; /* Set font size */
+	display: block; /* Display as block element */
+	margin: 0 auto; /* Center-align the button */
+	transition:  0.2s all; /* Add smooth transition effect */
+}
+
+/* Styling for product button on hover */
+.product button:hover 
+{
+	transform: scale(1.08); /* Scale button on hover */
+}
+
+/* Styling for the footer */
+footer 
+{
+	background-color: #DEB887; /* Set background color */
+	color: #000; /* Set text color */
+	padding: 1em; /* Add padding */
+	text-align: center; /*Align content to center*/
+}

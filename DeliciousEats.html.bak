@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for character set and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title -->
+    <title>Delicious eat - Dave's eatery</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="Delicious.css">
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>Dave's Eatery</h1>
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <!-- Home link -->
+                <li><a href="index.html">Home</a></li>
+                <!-- Menu link -->
+                <li><a href="Restaurant.html">Order</a></li>
+                <!-- Chef link -->
+                <li><a href="Chef.html">Chef</a></li>
+                <!-- Contact Us link -->
+                <li><a href="ContactUs.html">Contact us</a></li>
+                <!-- Delicious eat link -->
+                <li><a href="DeliciousEats.html">Buffet</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section --> 
+    <section class="content"> 			<!-- This Fulfils requirement 5.1(a)-->
+        <!-- Upcoming Dish section -->
+        <h2>Upcoming Dish: Special Delight</h2>
+        <article>We are excited to introduce our upcoming dish, "Special Delight"! Stay tuned for the grand unveiling.</article> <!--This also fulfils requirement 5.1(a)-->
+        <!-- Timer display -->
+        <div id="countdown">
+            <h3>Countdown to the Event:</h3>
+            <div id="timer"></div>
+        </div>
+        <hr>
+        <!-- Unlimited special section -->
+        <h2>Our Unlimited special</h2>
+        <p>The photo states our unlimited menu option.</p>
+     </section>
+
+    <!-- Image gallery section -->
+    <section class="image-gallery">
+        <img src="buffet.jpg" alt="Delicious Dishes">
+    </section>
+
+    <!-- Horizontal Video section, This fulfils requirement 5.5(a) -->
+    <section class="HV">
+        <p>Unlimited Buffet coming soon! Stay tuned.</p>
+        <video src="video.mp4" autoplay muted loop></video>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2023 Delicious Eats. All rights reserved.</p> <!--This fulfils requirement 5.1(d)-->
+    </footer>
+
+    <!-- External script for timer functionality -->
+    <script src="timer.js"></script>
+</body>
+</html>

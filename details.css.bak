@@ -1,0 +1,86 @@
+/* Set background color, font, and box model for the entire page */
+body 
+{
+    background-color: Moccasin; /* Background color */
+    margin: 0; /* Remove default margin */
+    font-family: Sans-serif; /* Set font family */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in the box model */
+}
+
+/* Style for the main heading */
+h1 
+{
+    text-align: center; /* Center-align text */
+    color: green; /* Text color */
+    padding: 20px; /* Add padding around the heading */
+}
+
+/* Styling for the navigation bar */
+nav 
+{
+    background-color: #DEB887; /* Background color */
+    text-align: center; /* Center-align navigation items */
+    padding: 10px 0; /* Add padding to increase the overall height */
+}
+
+/* Styling for navigation list */
+nav ul 
+{
+    list-style-type: none; /* Remove default list styling */
+}
+
+/* Styling for individual navigation items */
+nav ul li 
+{
+    display: inline-block; /* Use inline-block for layout */
+    margin: 0 15px; /* Add margin between navigation items */
+}
+
+/* Styling for navigation links */
+nav ul a 
+{
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Link color */
+    font-size: 18px; /* Set the desired font size */
+    transition: 0.2s ease-in; /* Add smooth transition effect */
+}
+
+/* Styling for navigation links on hover */
+nav ul a:hover 
+{
+    background-color: red; /* Background color on hover */
+    color: white; /* Text color on hover */
+    padding: 15px 25px; /* Padding on hover */
+}
+
+/* Styling for tables */
+table 
+{
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    margin-top: 20px; /* Add margin at the top of the table */
+}
+
+th, td 
+{
+    border: 1px solid #000; /* Border for cells */
+    padding: 8px; /* Padding inside cells */
+    text-align: center; /* Center-align text in cells */
+}
+
+th 
+{
+    background-color: #f2f2f2; /* Background color for header cells */
+}
+
+/* Styling for the footer */
+footer 
+{
+    background-color: #DEB887; /* Footer background color */
+    color: #000; /* Text color in the footer */
+    padding: 1em; /* Add padding inside the footer */
+    text-align: center; /* Center-align text in the footer */
+}
+
+

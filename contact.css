@@ -1,0 +1,156 @@
+/* Resetting default styles for the body */
+body 
+{
+    background-color: Moccasin; /* Background color */
+    margin: 0; /* Remove default margin */
+    font-family: Sans-serif; /* Set font family */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in the box model */
+}
+
+/* Styling for the main heading */
+h1 
+{
+    text-align: center; /* Center-align text */
+    color: green; /* Text color */
+    padding: 20px; /* Add padding around the heading */
+}
+
+/* Styling for the navigation bar */
+nav 
+{
+    background-color: #DEB887; /* Background color */
+    text-align: center; /* Center-align navigation items */
+    padding: 10px 0; /* Add padding to increase the overall height */
+}
+
+/* Styling for navigation list */
+nav ul 
+{
+    list-style-type: none; /* Remove default list styling */
+}
+
+/* Styling for individual navigation items */
+nav ul li 
+{
+    display: inline-block; /* Use inline-block for layout */
+    margin: 0 15px; /* Add margin between navigation items */
+}
+
+/* Styling for navigation links */
+nav ul a 
+{
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Link color */
+    font-size: 18px; /* Set the desired font size */
+    transition: 0.2s ease-in; /* Add smooth transition effect */
+}
+
+/* Styling for navigation links on hover */
+nav ul a:hover 
+{
+    background-color: red; /* Background color on hover */
+    color: white; /* Text color on hover */
+	padding: 15px 25px; /*Add padding*/
+}
+/*below fulfils requirements 5.3(b)
+/* Styling for the contact form */
+.contact-form 
+{
+    max-width: 500px; /* Set maximum width for the form */
+    margin: 20px auto; /* Center the form with top and bottom margin */
+    padding: 20px; /* Add padding inside the form */
+    background-color: #fff; /* Form background color */
+    border-radius: 8px; /* Add rounded corners to the form */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Styling for the form inside the contact form */
+form 
+{
+    display: grid; /* Use grid layout for form elements */
+    gap: 10px; /* Add gap between form elements */
+	
+}
+/* Styling for input fields and text areas in the form, This fulfils requirements5.3(c)*/
+input:focus,
+textarea:focus 
+{
+    border: 2px solid #555; /*Adding border properties*/
+	width: 100%; /* Take up 100% of the container width */
+    padding: 8px; /* Add padding inside input fields and text areas */
+    box-sizing: border-box; /* Include padding and border in the box model */
+}
+/* Styling for form labels */
+label 
+{
+    font-size: 16px; /* Set font size for labels */
+}
+
+/* Styling for the submit button in the form */
+button 
+{
+    padding: 10px; /* Add padding to the button */
+    border: none; /* Remove default button border */
+    background-color: green; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 4px; /* Add rounded corners to the button */
+    font-size: 18px; /* Set font size for the button */
+    transition: 0.2s all; /* Add smooth transition effect for all properties */
+}
+
+/* Styling for the submit button on hover */
+button:hover 
+{
+    background-color: darkgreen; /* Button background color on hover */
+}
+
+/* Styling for the footer */
+footer 
+{
+    background-color: #DEB887; /* Footer background color */
+    color: #000; /* Text color in the footer */
+    padding: 1em; /* Add padding inside the footer */
+	text-align: center; /*Alligning content to center*/
+}
+/* Add styles for social media links */
+.social-media 
+{
+    margin-top: 10px; 
+}
+
+.social-media a 
+{
+    color: #333; /* Adjust color as needed */
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+/* Add hover effect if desired */
+.social-media a:hover 
+{
+    color: #FF5733; /* Change color on hover */
+}
+/* Media query for responsiveness, This fulfils requirements 5.7(a) */
+@media screen and (max-width: 600px) 
+{
+	/* Adjusting styles for smaller screens here (responsiveness), This fulfils requirements 5.7(c)*/
+nav ul 
+{
+    text-align: center;
+}
+
+nav ul li 
+{
+    display: block;
+    margin: 10px 0;
+}
+
+nav ul a 
+{
+    display: inline-block;
+    padding: 10px 15px;
+}
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Contact Us</title>
+    <!-- Link to external stylesheet for styling -->
+    <link rel="stylesheet" href="contact.css">
+    <!-- Link to Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Main heading of the page -->
+    <h1>Dave's Eatery</h1>
+
+    <!-- Navigation bar with links to other pages -->
+    <nav>
+        <ul>
+            <!-- Home link -->
+            <li><a href="index.html">Home</a></li>
+            <!-- Menu link -->
+            <li><a href="Restaurant.html">Menu</a></li>
+            <!-- Chef link -->
+            <li><a href="Chef.html">Chef</a></li>
+            <!-- Contact Us link -->
+            <li><a href="ContactUs.html">Contact us</a></li>
+			<!-- Delicious eat link -->
+			<li><a href="DeliciousEats.html"> Buffet </a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact form section, This fulfils requirements 5.3(a) and 5.6(b)-->
+    <div class="contact-form">
+        <!-- Form with post method and action set to "#" (no specific action) -->
+        <form id="contactForm" action="#" method="post" onsubmit="validateForm();">
+            <!-- Name input field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- Email input field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="input-txt" autofocus required>
+
+            <!-- Message textarea -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer section -->
+    <footer id="footer">
+        
+        <!-- Using footer with Social media links, This fulfils requirement 5.1(f) -->
+        <div class="social-media">
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        </div>
+        
+        <!-- Last updated information, This fulfils requirement 5.1(g) -->
+        <div id="last-updated">Last Updated: <span id="update-time"></span></div>
+
+        <!-- Copyright information -->
+        <div id="copyright">&copy; 2023 Dave's Eatery. All rights reserved.</div>
+    </footer>
+		<!--Adding javascript file -->
+    <script src="javascript.js"></script> 
+
+</body>
+</html>

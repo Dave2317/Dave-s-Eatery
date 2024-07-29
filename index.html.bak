@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8"> <!-- Set character encoding to UTF-8 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Set viewport for responsive design -->
+  
+	<!-- Google Fonts -->
+	<link rel="stylesheet" type="text/css" href="HomepageStyles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inconsolata:wght@200&family=Poppins&display=swap" rel="stylesheet"> <!-- Importing Google Fonts -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+	<!-- Adding stylesheet -->
+	<link rel="stylesheet" type="text/css" href="HomepageStyles.css"> <!-- Link to the custom stylesheet -->
+	<title>Home-Dave's Eatery</title> <!-- Page title -->
+ </head>
+
+<body>
+  <div id="abc">
+	<div id="def">
+	<h1> Dave's Eatery </h1> <!-- Main heading -->
+	<h2> Explore a world of flavors at our cozy eatery! </h2> <!-- Subheading -->
+	<a href="Restaurant.html"> order </a> <!-- Link to the 'Restaurant.html' page -->
+	<a href="CrossReference.html" target="_blank">  Cross refrence </a> <!-- Link to the 'CrossReference.html' page -->
+	</div>
+  </div>
+  
+  <div id="ghi">
+	<nav id="jkl">
+		<h1> Dave's Eatery </h1> <!-- Heading for navigation bar -->
+	    <ul>
+		  <li> <a href="index.html"> Home </a> </li> <!-- Navigation link to the 'homepage.html' page -->
+		  <li> <a href="Restaurant.html"> Order </a> </li> <!-- Navigation link to the 'Restaurant.html' page -->
+		  <li> <a href="Chef.html"> chef </a> </li> <!-- Navigation link to the 'Chef.html' page -->
+		  <li> <a href="ContactUs.html"> Contact us </a> </li> <!-- Navigation link to the 'ContactUs.html' page -->
+		  <li> <a href="DeliciousEats.html"> Buffet </a></li> <!-- Navigation link to the 'DeliciousEats.html' page -->
+	   </ul>
+	 <div id="phone">
+	     <a href="tel:+2508791742"> +2508791742 </a> <!-- Link to initiate a phone call -->
+     </div> 
+	</nav>
+   </div> 
+</body>
+</html>

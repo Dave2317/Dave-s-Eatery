@@ -1,0 +1,141 @@
+/* Set background color, font, and box model for the entire page */
+body 
+{
+    background-color: Moccasin; /* Background color */
+    margin: 0; /* Remove default margin */
+    font-family: Sans-serif; /* Set font family */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in the box model */
+}
+
+/* Style for the main heading */
+h1 
+{
+    text-align: center; /* Center-align text */
+    color: green; /* Text color */
+    padding: 20px; /* Add padding around the heading */
+}
+
+/* Styling for the navigation bar */
+nav 
+{
+    background-color: #DEB887; /* Background color */
+    text-align: center; /* Center-align navigation items */
+    padding: 10px 0; /* Add padding to increase the overall height */
+}
+
+/* Styling for navigation list */
+nav ul 
+{
+    list-style-type: none; /* Remove default list styling */
+}
+
+/* Styling for individual navigation items */
+nav ul li 
+{
+    display: inline-block; /* Use inline-block for layout */
+    margin: 0 15px; /* Add margin between navigation items */
+}
+
+/* Styling for navigation links */
+nav ul a 
+{
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Link color */
+    font-size: 18px; /* Set the desired font size */
+    transition: 0.2s ease-in; /* Add smooth transition effect */
+}
+
+/* Styling for navigation links on hover */
+nav ul a:hover 
+{
+    background-color: hsla(0, 100%, 50%, 1); /* Background color on hover using HSLA values, This fulfils 5.2(c)*/
+    color: white; /* Text color on hover */
+	padding: 15px 25px; /* Padding on hover */
+}
+
+/* Styling for the Horizontal Video section */
+.HV
+{
+    position: relative; /* Set the position property to relative */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.HV video 
+{
+    width: 320px; /* Set width for the video */
+    height: 250px; /* Set height for the video */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Styling for the main content section */
+.content 
+{
+    text-align: left; /* Align text to the left */
+    padding: 50px 20px; /* Add padding to the content section */
+}
+
+/* Styling for the image gallery */
+.image-gallery 
+{
+    margin: 20px 0; /* Add margin above and below the image gallery */
+    overflow: hidden; /* Clear float to contain floated images */
+}
+
+/* Styling for individual images in the gallery */
+.image-gallery img 
+{
+    display: float; /* Float to the left for layout, This fufils requirement 5.2(f) */
+    width: 313.3px; /* Set width for each image with margin between them */
+    margin: 0 10px 20px 0; /* Adjust margin for spacing between images */
+    transition: transform 0.3s ease-in-out; /* Smooth transition on image transform */
+	opacity: 0.5; /* Set initial opacity for semi-transparency,This fufils requirement 5.2(h)*/
+   
+   /* Add animation properties using keyframes, This fulfils requirement 5.5(b) */
+    animation-name: fadeInOut;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+/* Define the keyframes for the animation */
+@keyframes fadeInOut 
+{
+    0% 
+	{
+        opacity: 0.2; /* Start with low opacity */
+    }
+    50% 
+	{
+        opacity: 1; /* Increase opacity */
+    }
+    100% 
+	{
+        opacity: 0.2; /* End with low opacity */
+	}
+}
+
+/* Styling for image hover effect */
+.image-gallery img:hover 
+{
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+/* Media query for screens with a maximum width of 768px, This fulfils requirement 5.7(b) */
+@media screen and (max-width: 768px) 
+{
+    .image-gallery img 
+	{
+        width: 100%; /* Set width to 100% for responsiveness */
+        margin: 0 0 20px 0; /* Adjust margin for spacing between images */
+    }
+}
+
+/* Styling for the footer */
+footer 
+{
+    background-color: #DEB887; /* Footer background color */
+    color: #000; /* Text color in the footer */
+    padding: 1em; /* Add padding inside the footer */
+	text-align: center; /* Center-align text in the footer */
+}

@@ -1,0 +1,106 @@
+/*Below fulfils requirement 5.2(a) and 5.2(b)-->
+/* Body styling */
+body 
+{
+    font-family: 'Arial', sans-serif; /* Set font family for the entire document */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: Moccasin; /* Set background color */
+}
+
+/* Global styling for all elements */
+* 
+{
+    margin: 0; /* Remove default margin */
+    font-family: Sans-serif; /* Set font family for all elements */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in the box model */
+}
+
+/* Styling for main heading */
+h1 
+{
+    text-align: center; /* Center-align text */
+    color: green; /* Set text color to green */
+    padding: 20px; /* Add padding around the heading */
+}
+
+/* Styling for the navigation bar */
+nav 
+{
+    background-color: #DEB887; /* Background color */
+    text-align: center; /* Center-align navigation items */
+    padding: 10px 0; /* Add padding to increase the overall height */
+}
+
+/* Styling for navigation list */
+nav ul 
+{
+    list-style-type: none; /* Remove default list styling */
+}
+
+/* Styling for individual navigation items */
+nav ul li 
+{
+    display: inline-block; /* Use inline-block for layout */
+    margin: 0 15px; /* Add margin between navigation items */
+}
+
+/* Styling for navigation links */
+nav ul a 
+{
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Link color */
+    font-size: 18px; /* Set the desired font size */
+    transition: 0.2s ease-in; /* Add smooth transition effect */
+}
+
+/* Styling for navigation links on hover */
+nav ul a:hover 
+{
+    background-color: red; /* Background color on hover */
+    color: white; /* Text color on hover */
+	padding: 15px 25px; /*Add padding */
+}
+
+/* Styling for chef section */
+.chef-section 
+{
+    position: relative; /* Set relative positioning */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Styling for chef image */
+.chef-image 
+{
+    position: absolute; /* Set absolute positioning */
+    top: 50%; /* Align to the vertical center */
+    left: 50%; /* Align to the horizontal center */
+    transform: translate(-50%, -50%); /* Center the image */
+    max-width: 100%; /* Set maximum width */
+    max-height: 100%; /* Set maximum height */
+    border-radius: 50%; /* Create a circular border */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle shadow, This fulfils requirement 5.2(c) */
+    z-index: 1; /* Set stacking order */
+	opacity:0.5; /*image to appear semi-transparent*/
+}
+
+/* Styling for chef content */
+.chef-content 
+{
+    padding: 20px; /* Add padding */
+    z-index: 2; /* Set stacking order */
+    background-color: #fff; /* Set background color */
+    margin: 20px; /* Add margin */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Styling for the footer */
+footer 
+{
+    background-color: #DEB887; /* Set background color */
+    color: #000; /* Set text color */
+    padding: 1em; /* Add padding */
+	text-align: center;/* Aligning content to center*/
+}

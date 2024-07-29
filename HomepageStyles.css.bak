@@ -1,0 +1,168 @@
+/*Below code fulfils requirements 5.2(e)*/
+/* Resetting default styles for all elements */
+* 
+{
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Setting the base font size for the entire document */
+html 
+{
+    font-size: 100%; /* Set base font size to 100% */
+   
+}
+
+/* Styling for the body */
+body 
+{
+    font-family: 'Dela Gothic One', sans-serif; /* Primary font */
+    font-family: 'Inconsolata', monospace; /* Secondary font*/
+    font-family: 'Poppins', sans-serif; /* Tertiary font */ 
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+	overflow-y:hidden; /* Hide vertical scrollbar */
+}
+
+/* Styling for the main container with the ID 'abc' */
+#abc 
+{
+    position: relative; /*position the pseudo-element relatively*/
+    width: 100vw; /* Set width to 100% of the viewport width */
+    height: 100vh; /* Set height to 100% of the viewport height */
+    text-align: center; /* Center text within the container */
+}
+
+/* Styling for a pseudo-element '::before' of the container with ID 'abc' */
+#abc::before 
+{
+    content: ""; /* Generate content for the pseudo-element */
+    position: absolute; /* Position the pseudo-element absolutely */
+    top: 0; /* Align to the top of the container */
+    left: 0; /* Align to the left of the container */
+    width: 100%; /* Set width to 100% of the container */
+    height: 100%; /* Set height to 100% of the container */
+    background-image: url('img1.jpeg');      /* As background image is used, It fulfils requirement 5.1(c) */ 
+    background-size: cover; /* Ensure the background covers the entire container */
+    background-position: center center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image repetition */
+    background-attachment: fixed; /* Fix the background image during scrolling */
+    filter: brightness(50%); /* Apply brightness to the background image */
+}
+
+/* Styling for a container with the ID 'def' */
+#def 
+{
+    position: absolute; /* Position the container absolutely */
+    top: 50%; /* Align to the middle vertically */
+    left: 50%; /* Align to the middle horizontally */
+    transform: translate(-50%, -50%); /* Move back by 50% of its own width and height */
+    text-align: center; /* Center text within the container */
+}
+
+
+/* Styling for headings and links within the container with ID 'def' */
+#def h1 
+{
+    color: #fff; /* Set text color to white */
+    font-size: 2.8rem; /* Set font size */
+    text-shadow: 2px 2px 2px #000; /* Add a subtle text shadow */
+}
+
+#def h2 
+{
+    color: #fff; /* Set text color to white */
+    font-size: 2rem; /* Set font size */
+    font-family: cursive; /* Set font family to cursive */
+    margin-top: 1rem; /* Set top margin */
+    margin-bottom: 4rem; /* Set bottom margin */
+}
+
+#def a 
+{
+    color: #fff; /* Set text color to white */
+    border: 1px solid orange; /* Set border style */
+    padding: 3px 20px 5px 20px; /* Set padding */
+    background: rgb(0, 0, 0, 0.6); /* Set background color with alpha transparency */
+    font-size: 1.5rem; /* Set font size */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 20px; /* Set border radius for rounded corners */
+}
+
+#def a:hover 
+{
+    background: navy; /* Change background color on hover */
+}
+
+/* Styling for a fixed header with the ID 'ghi' */
+#ghi 
+{
+    position: fixed; /* Fix the header position */
+    top: 0; /* Align to the top of the viewport */
+    width: 100vw; /* Set width to 100% of the viewport width */
+    height: 70px; /* Set height */
+    line-height: 70px; /* Set line height */
+}
+
+/* Styling for a navigation bar with the ID 'jkl' */
+#jkl 
+{
+    text-align: center; /* Center the items within the navigation bar */
+    background: rgba(0, 0, 0, 0.5); /* Set background color with alpha transparency */
+    overflow: hidden; /* Clear the float */
+}
+
+/* Styling for the logo ("Dave's Eatery") on the left */
+#jkl h1 
+{
+	float:left; /* float content to left*/
+    display: inline-block; /* Display the logo as an inline block */
+    color: orange; /* Set text color to orange */
+    font-size: 1.8rem; /* Set font size */
+    text-shadow: 2px 2px 2px #000; /* Add a subtle text shadow */
+    font-family: cursive; /* Set font family to cursive */
+    margin: 0; /* Remove margin */
+    padding: 15px; /* Add padding to create space around the logo */
+}
+
+/* Styling for list items within the navigation bar */
+#jkl ul 
+{
+    display: inline-block; /* Display the list items as inline blocks */
+    margin-top: 25px; /* Adjust the top margin */
+}
+
+#jkl ul li 
+{
+    list-style: none; /* Remove default list styling */
+    display: inline-block; /* Display items as inline blocks */
+    margin: 0 15px; /* Add margin to create space between items */
+    padding: 15px; /* Set padding */
+}
+
+#jkl ul li:hover,
+#phone a:hover 
+{
+    background: navy; /* Change background color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#jkl ul li a 
+{
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Set text color to white */
+    font-size: 1.1rem; /* Set font size */
+}
+
+/* Styling for the telephone number on the right */
+#phone a 
+{
+    text-decoration: none;
+    position: absolute; /* Position the telephone number absolutely */
+    top: 15px; /* Adjust the top position */
+    right: 15px; /* Adjust the right position */
+    color: #fff; /* Set text color to white */
+    font-size: 1rem; /* Set font size */
+    padding: 5px 10px; /* Set padding to create space around the telephone number */
+    border: 1px solid orange; /*set border*/
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
